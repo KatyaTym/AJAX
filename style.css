@@ -1,0 +1,59 @@
+body {
+    background-color: #ffb9b9;
+}
+
+li {
+    list-style-type: none;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    margin-left: 450px;
+    margin-right: 500px;
+    padding: 25px;
+}
+
+ul {
+    text-align: center;
+}
+
+form {
+    color: white;
+    text-align: center;
+}
+
+#name,
+#age {
+    color: white;
+    background-color: #ffb9b9;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+#addBtn, button {
+	margin: 0 auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    background-color: #ffb9b9;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid white;
+    opacity: 0.6;
+    transition: 0.3s; 
+    display: inline-block;
+    padding: 3px 15px;
+}
+
+#addBtn:hover {opacity: 1}
+
+button:hover {opacity: 1}
+
+#age {
+	margin-left: 61px;
+}
+
+button {
+	margin-left: 170px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}

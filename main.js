@@ -9,14 +9,14 @@ function addUserToList(name, age, id) {
     element.textContent = name + " " + age;
     list.append(element);
 
-    const deleteBtn = document.createElement("input");
+    const deleteBtn = document.createElement("button");
     deleteBtn.type = "button";
     deleteBtn.onclick = function() {
     	deleteUser(id);
     	element.parentNode.removeChild(element);
     	deleteBtn.parentNode.removeChild(deleteBtn);
     };
-    deleteBtn.value = "Delete";
+    deleteBtn.textContent = "Delete";
     list.appendChild(deleteBtn);
 }
 
