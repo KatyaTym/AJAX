@@ -1,5 +1,5 @@
 body {
-    background-color: #ffb9b9;
+    background-image: url(thumb_l_psh_0000361.jpg);
 }
 
 li {
@@ -7,8 +7,8 @@ li {
     border: 2px solid white;
     border-radius: 8px;
     color: white;
-    margin-left: 450px;
-    margin-right: 500px;
+    margin-left: 170px;
+    margin-right: 200px;
     padding: 25px;
 }
 
@@ -24,7 +24,7 @@ form {
 #name,
 #age {
     color: white;
-    background-color: #ffb9b9;
+    background-color: #F8ABBF;
     border: 2px solid white;
     border-radius: 8px;
     padding: 4px;
@@ -34,7 +34,7 @@ form {
 	margin: 0 auto;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: pointer;
-    background-color: #ffb9b9;
+    background-color: #F8ABBF;
     color: white;
     border-radius: 8px;
     border: 2px solid white;
@@ -56,4 +56,11 @@ button {
 	margin-left: 170px;
 	margin-bottom: 10px;
 	margin-top: 10px;
+}
+
+div {
+	padding-top: 10px;
+	margin-left: 300px;
+	margin-right: 300px;
+	background-color:#F8ABBF; 
 }

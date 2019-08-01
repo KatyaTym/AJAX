@@ -21,11 +21,13 @@ function addUserToList(name, age, id) {
 }
 
 function createUsersList(users) {
-    list = document.createElement("ul");
+	let div = document.createElement("div");
+    list= document.createElement("ul");
     users.data.forEach((user) => {
         addUserToList(user.name, user.age, user.id);
     });
-    document.body.append(list);
+    div.append(list);
+    document.body.append(div);
 };
 
 function getUsers() {
